@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "546777735460",
+    "firebase_url": "https://pushupapp-a7370.firebaseio.com",
+    "project_id": "pushupapp-a7370",
+    "storage_bucket": "pushupapp-a7370.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546777735460:android:afca2755ab989aae7f53b1",
+        "android_client_info": {
+          "package_name": "ie.wit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546777735460-tiuujc5gs4k1um4ppmq6aq8b6u3rlnid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmuQDsjBaPcd4fj_bvTI6yzH_0vWb4xYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546777735460-tiuujc5gs4k1um4ppmq6aq8b6u3rlnid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

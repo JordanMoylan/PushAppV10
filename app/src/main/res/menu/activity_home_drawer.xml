@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/ic_pushup"
+            android:title="@string/menu_pushup" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_report"
+            android:title="@string/menu_report" />
+        <item
+            android:id="@+id/nav_howto"
+            android:icon="@drawable/ic_howto_24dp"
+            android:title="@string/menu_howto" />
+    </group>
+
+    <item android:title="@string/timer">
+    <menu>
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic__timer"
+            android:title="@string/menu_timer" />
+    </menu>
+    </item>
+
+    <item android:title="@string/about_exit">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_aboutus"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@android:drawable/ic_menu_revert"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">PushApp</string>
+    <string name="action_pushup">Push-ups</string>
+    <string name="action_progress">- PROGRESS -</string>
+    <string name="donateSubtitle">No Pain No Gain!</string>
+    <string name="donateButton">Finish Set!</string>
+    <string name="paypal">PayPal</string>
+    <string name="direct">Direct</string>
+    <string name="amount">Amount</string>
+    <string name="total">Pushup Total</string>
+    <string name="totalSoFar">$ Total</string>
+    <string name="progressTitle">Progress Report</string>
+    <string name="defaultAmount">00</string>
+    <string name="defaultMethod">N/A</string>
+    <string name="loggedout">Logged out</string>
+    <string name="enter_amount">Enter Amount</string>
+
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PushApp v10</string>
+    <string name="nav_small_title">By Jordan Moylan</string>
+    <string name="nav_header_subtitle">$email</string>
+    <string name="nav_header_desc">App Logo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_pushup">Push-up Log</string>
+    <string name="menu_report">Progress Log</string>
+    <string name="menu_howto">How to use app</string>
+    <string name="menu_timer">One Min Timer</string>
+    <string name="menu_about">About Us</string>
+    <style name="countdown">Countdown Timer</style>
+    <string name="aboutus_title">Push App</string>
+    <string name="aboutus_message">Welcome to the APP</string>
+
+    <string name="messageLoading">Please wait while we Connect to the Server…</string>
+
+    <string name="action_edit">Edit Donation</string>
+    <string name="action_update">Update</string>
+    <string name="message_edit">Update Sets and Reps below:</string>
+
+    <!-- START Firebase Resources-->
+
+    <string name="label_emailpassword">Email/Password Authentication</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Please Login Below</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">1</string>
+    <string name="reps">Rep Count:</string>
+    <string name="set">Set Count:</string>
+    <string name="Number">0</string>
+    <string name="hello">Hello</string>
+    <string name="hello2">Hello</string>
+    <string name="tap_to_increase">Tap with Nose</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="timerTime">00:00</string>
+    <string name="seconds_remaining">Seconds Remaining:</string>
+    <string name="date">Date:</string>
+    <string name="appDetails">This is an app I developed through my time taking part in the lauraLynn Childrens hospital charity event where the goal was to get 3000
+        pushups in the space of one month. \n\nThis was achieved through 100 pushups a day for 30 days, which meant no break days were possible, unless you caught up
+        somehow on other days.\n\nThis app is a homage to the event in the hopes that it can be used for others if ever another similar event appear. \n\n
+        This app also features a section for planks which sets an automatic 1 minute timer during rest times if you wish for a higher difficulty.
+        \n\n Enjoy the app \n Jordan Moylan"
+    </string>
+    <string name="authorName">Hi, My name is Jordan Moylan</string>
+    <string name="Welcome">Welcome to my app called PushApp</string>
+    <string name="about_exit"><![CDATA[About & Exit]]></string>
+    <string name="timer">Timer</string>
+    <string name="allcount">allcount</string>
+    <string name="dateformat">03/05/2020</string>
+    <string name="althelp">You can also take advantage of the handy minute timer between sets if need be</string>
+    <string name="stepfour">Step 4: When you have reached the desired reps, you can press finish set at the bottom of the screen.\n It shoudl look like this:</string>
+    <string name="stepthree">Step 3: Use your nose and tap the screen when you go down on a pushup</string>
+    <string name="stepone">Step 1: Position phone on the ground directly below your face</string>
+    <string name="buttonExample">Finish Set</string>
+    <string name="steptwo">Step 2: Change the slider on the right to say which set you are on</string>
+    <string name="howToTitle">How to use this app correctly:</string>
+    <string name="setsMain">Sets:</string>
+
+    <!--END Firebase Resources-->
+</resources>

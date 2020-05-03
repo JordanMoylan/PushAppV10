@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#ffd7ff"
+    android:layout_marginBottom="8dp"
+    android:elevation="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/setCounter"
+            style="@style/CardStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="51dp"
+            android:layout_toStartOf="@+id/repCounter"
+            android:text="TextView"
+            android:textColor="@color/colorPrimary"
+            tools:text="SetNo" />
+
+        <TextView
+            android:id="@+id/dateDisplay"
+            style="@style/CardStyle"
+            android:layout_width="162dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="12dp"
+            android:layout_toStartOf="@+id/setCounter"
+            android:text="@string/dateformat"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/repCounter"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/droid_sans"
+            android:layout_marginEnd="0dp"
+            android:text="@string/_1"
+            tools:text="RepNo"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

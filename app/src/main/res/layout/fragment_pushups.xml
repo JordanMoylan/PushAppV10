@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".fragments.PushupFragment">
+
+    <Button
+        android:id="@+id/finishSet"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/donateButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <NumberPicker
+        android:id="@+id/setPicker"
+        style="@android:style/Widget.Material.NumberPicker"
+        android:layout_width="38dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/pushUp_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pushUp_button"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/setManualPick"
+        android:layout_width="147dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints="Please Enter an Amount"
+        android:ems="10"
+        android:hint="@string/enter_amount"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/pushUp_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="291dp"
+        android:layout_height="375dp"
+        android:fontFamily="@font/droid_sans_bold"
+        android:outlineAmbientShadowColor="#333333"
+        android:text="@string/tap_to_increase"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <TextView
+        android:id="@+id/repcountMain"
+        style="@style/reportNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reps"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/value"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <TextView
+        android:id="@+id/setcountMain"
+        style="@style/reportNos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setsMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pushUp_button"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/Number"
+        android:textAlignment="center"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
